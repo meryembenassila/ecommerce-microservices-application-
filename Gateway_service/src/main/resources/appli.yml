@@ -6,12 +6,12 @@ spring:
           routes:
             - id : r1
               uri:
-                http://localhost:8082
+               lb://CUSTOMER-SERVICE
               predicates:
                 - Path=/customers/**
             - id: r2
               uri:
-                http://localhost:8083
+                lb://INVETORY_SERVICE
               predicates:
                   - Path=/products/**
 
