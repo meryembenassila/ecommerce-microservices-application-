@@ -1,12 +1,15 @@
 package benassila.meryem.customerservice;
 
+import benassila.meryem.customerservice.config.CustomerConfigParams;
 import benassila.meryem.customerservice.entities.Customer;
 import benassila.meryem.customerservice.repositories.CustomerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
+@EnableConfigurationProperties(CustomerConfigParams.class)
 @SpringBootApplication
 public class CustomerServiceApplication {
 
