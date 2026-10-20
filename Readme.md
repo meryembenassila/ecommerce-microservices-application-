@@ -4,8 +4,11 @@ L'objectif est de créer une application basée sur une architecture micro-servi
 ![img_33.png](img_33.png)
 ## Service Customer 
 ![img_17.png](img_17.png)
+
 ![img_18.png](img_18.png)
+
 ![img_19.png](img_19.png)
+
 ## Service inventory 
 ![img_17.png](img_17.png)
 ![img_20.png](img_20.png)
